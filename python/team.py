@@ -14,4 +14,4 @@ class Team:
         return self.wins / (self.wins + self.loss) * 100
 
     def __str__(self):
-        return f"{self.name:10} ({self.getWinPercentage():.2f})";
+        return f"{self.name:10} ({self.getWinPercentage():.2f})"
